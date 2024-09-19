@@ -1,0 +1,180 @@
+/* General Styles Start */
+body {
+    font-family: Arial;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    color: #51b2df;
+}
+
+h2 {
+    color: #293f49;
+}
+
+a {
+    color: #51b2df;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #51b2df;
+}
+
+.picturecard {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 0px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    box-shadow: 2 2px 5px rgba(66, 64, 64, 0.1);
+    width: 20%;
+}
+
+.picture {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.biopicture {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #333;
+}
+
+#academicinterests {
+    display: none;
+}
+
+#hobbies
+{
+    display: none;
+}
+
+#futuregoals {
+    display: none;
+}
+
+#contact {
+    display: none;
+}
+
+#futuregoals {
+    display: none;
+}
+
+td {
+    vertical-align: top;
+}
+/* General Styles End */
+
+/* Navigation Bar Start */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 1em;
+    margin: 0;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar a:hover, .navbar a:focus {
+    color: #51b2df;
+}
+/* Navigation Bar End */
+
+/* Content Start */
+section {
+    margin: 20px 20px 20px 20px;
+}
+/* Content End */
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #51b2df;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/* Footer Start */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Footer End */
+
+/* Tablet Styling Start */
+@media (max-width: 768px) {
+    #content {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form {
+        width: 100%;
+        align-items: center;
+    }
+
+    input, textarea {
+        max-width: 90%;
+    }
+}
+/* Tablet Styling End */

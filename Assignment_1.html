@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My personal website">
+    <title>My personal website</title>
+    <link rel="stylesheet" href="Assignment_1.css">
+</head>
+<script>
+
+    // Show the selected section
+    function showSection(sectionId) {
+        // Hide all sections
+        document.getElementById("biography").style.display = "none";
+        document.getElementById("academicinterests").style.display = "none";
+        document.getElementById("hobbies").style.display = "none";
+        document.getElementById("futuregoals").style.display = "none";
+        document.getElementById("contact").style.display = "none";
+
+        // Show the selected section
+        document.getElementById(sectionId).style.display = "block";
+    }
+
+</script>
+<body>
+
+    <!-- Navigation Bar Start -->
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#biography" onclick="showSection('biography')">Biography</a></li>
+                <li><a href="#academicinterests" onclick="showSection('academicinterests')">Academic Interests</a></li>
+                <li><a href="#hobbies" onclick="showSection('hobbies')">Hobbies</a></li>
+                <li><a href="#futuregoals" onclick="showSection('futuregoals')">Future Goals</a></li>
+                <li><a href="https://www.linkedin.com/in/peterstahl/" target="_blank">My LinkedIn Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Navigation Bar End -->
+
+    <!-- Biography Start -->
+    <section id="biography">
+        <h1>Biography</h1>
+        <article>
+            <table>
+                <tr>
+                    <td>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac erat vel velit imperdiet aliquet
+                            vitae ac est. Mauris bibendum elementum nibh vel dapibus. Curabitur ac ipsum at metus auctor molestie et a diam.
+                            Praesent sollicitudin nec nisi eget tincidunt. Sed id ante auctor, lobortis justo vel, iaculis libero. 
+                            Pellentesque eu lorem tincidunt, scelerisque libero sit amet, bibendum ipsum. Nulla finibus gravida purus, 
+                            fringilla viverra diam scelerisque non. Duis non nisi at arcu sodales efficitur non vitae nibh. Orci varius 
+                            natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer ullamcorper turpis magna, 
+                            id ullamcorper lacus gravida quis. Proin pharetra aliquet tellus a fermentum. In ornare sollicitudin sollicitudin.
+                            Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque volutpat justo elit, nec blandit ex aliquet et.
+                        </p>
+                        <p>
+                            Suspendisse consectetur tellus id lorem scelerisque fringilla. Vestibulum id imperdiet tortor. Suspendisse ac risus et orci 
+                            dignissim pharetra vitae quis lectus. Curabitur suscipit, felis vel vulputate iaculis, tellus lorem rutrum libero, id feugiat
+                            justo eros eget massa. Nulla eget tempor nunc. Aenean id fringilla odio, non cursus est. Morbi efficitur malesuada sagittis. 
+                            Nulla rutrum commodo nisl quis mattis. Sed id odio ultrices metus pharetra lobortis vitae auctor est.
+                        </p>                    
+                    </td>
+                    <td>
+                        <img class="biopicture" src="Picture_1.jpg" alt="Image of me 1" />
+                    </td>
+                </tr>
+            </table>
+        </article>
+    </section>
+    <!-- Biography End -->
+
+    <!-- Academic Interests Start -->
+    <section id="academicinterests">
+        <h1>Academic Interests</h1>
+        <article>
+            <h2>I have the following academic interests</h2>            
+            <p>
+                Suspendisse consectetur tellus id lorem scelerisque fringilla. Vestibulum id imperdiet tortor. Suspendisse ac risus et orci 
+                dignissim pharetra vitae quis lectus. Curabitur suscipit, felis vel vulputate iaculis, tellus lorem rutrum libero, id feugiat
+                justo eros eget massa. Nulla eget tempor nunc. Aenean id fringilla odio, non cursus est. Morbi efficitur malesuada sagittis. 
+                Nulla rutrum commodo nisl quis mattis. Sed id odio ultrices metus pharetra lobortis vitae auctor est.
+            </p>
+            <div class="picturecard">
+                <img class="picture" src="Picture_1.jpg" alt="Image of me 1" />
+                <p>Image 1</p>
+            </div>
+
+            <div class="picturecard">
+                <img class="picture" src="Picture_1.jpg" alt="Image of me 1" />
+                <p>Image 2</p>
+            </div>
+
+            <div class="picturecard">
+                <img class="picture" src="Picture_1.jpg" alt="Image of me 1" />
+                <p>Image 3</p>
+            </div>
+
+            <div class="picturecard">
+                <img class="picture" src="Picture_1.jpg" alt="Image of me 1" />
+                <p>Image 4</p>
+            </div>
+        </article>
+    </section>
+    <!-- Academic Interests End -->
+
+    <!-- Hobbies Start -->
+    <section id="hobbies">
+        <h1>Hobbies</h1>
+        <article>
+            <h2>These are my hobbies</h2>            
+            <p>
+                Suspendisse consectetur tellus id lorem scelerisque fringilla. Vestibulum id imperdiet tortor. Suspendisse ac risus et orci 
+                dignissim pharetra vitae quis lectus. Curabitur suscipit, felis vel vulputate iaculis, tellus lorem rutrum libero, id feugiat
+                justo eros eget massa. Nulla eget tempor nunc. Aenean id fringilla odio, non cursus est. Morbi efficitur malesuada sagittis. 
+                Nulla rutrum commodo nisl quis mattis. Sed id odio ultrices metus pharetra lobortis vitae auctor est.
+            </p>                 
+            <ul>
+                <li>Alfa</li>
+                <li>Beta</li>
+                <li>Delta</li>
+                <li>Theta</li>
+                <li>Omega</li>
+            </ul>
+        </article>
+    </section>
+    <!-- Hobbies End -->
+
+    <!-- Future Goals Start -->
+    <section id="futuregoals">
+        <h1>Future Goals</h1>
+        <article>
+            <h2>These are my future goals</h2>            
+            <p>
+                Suspendisse consectetur tellus id lorem scelerisque fringilla. Vestibulum id imperdiet tortor. Suspendisse ac risus et orci 
+                dignissim pharetra vitae quis lectus. Curabitur suscipit, felis vel vulputate iaculis, tellus lorem rutrum libero, id feugiat
+                justo eros eget massa. Nulla eget tempor nunc. Aenean id fringilla odio, non cursus est. Morbi efficitur malesuada sagittis. 
+                Nulla rutrum commodo nisl quis mattis. Sed id odio ultrices metus pharetra lobortis vitae auctor est.
+            </p>                 
+            <ul>
+                <li>Finish this course</li>
+                <li>Grow privately and professionally</li>
+                <li>Continue striving for new fun goals</li>
+            </ul>
+        </article>
+    </section>
+    <!-- Future Goals End -->
+
+    <!-- Contact Form Start -->
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+        <table>
+            <tr>
+                <td><label for="name">Your Name:</label></td>
+                <td><input type="text" id="fullname" name="fullname" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Your Email:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="message">Your Message:</label></td>
+                <td><textarea id="message" name="message" rows="10" cols="50" required></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit">Send Message</button></td>
+            </tr>
+        </table>
+        </form>
+    </section>
+    <!-- Contact Form End -->
+
+    <!-- Footer -->
+    <footer>
+        <p>You can reach me at: <a href="mailto:p@lerudi.com">p@lerudi.com</a></p>
+        <p>&copy; 2024 Peter Stahl</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> | <a href="#">Cookie Policy</a> | <a href="https://www.linkedin.com/in/peterstahl/" target="_blank">My LinkedIn Profile</a></p>
+    </footer>
+</body>
+</html>
