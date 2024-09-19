@@ -1,4 +1,4 @@
-# HTMLCSSCourse_Assignment_1
+# HTML CSS Course Assignment 1
 Assignment 1 of the HMTL and CSS course. The idea of this course was to: Create a personal portfolio webpage using HTML and CSS, introducing more advanced CSS elements.
 
 The details of the task 
