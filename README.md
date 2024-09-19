@@ -14,4 +14,17 @@ The details of the task
 - Add a footer with contact information, a copyright notice, and placeholders for privacy policy and terms of service.
 
 ## Reflections
-The challenge in itself seemed pretty straightforward. I elaborated it slightly to include javascript so as to switch visibility for the various sections.
+The challenge in itself seemed pretty straightforward. I elaborated it slightly to include javascript so as to switch visibility for the various sections. 
+
+### Biography section
+The biography section consists of a division of the layout using a table, where two columns divide the text and images horizontally. The text is divided into two paragraphs 
+and the image has rounded corners and a fixed width and an adaptive height.
+
+### Academic section
+The academic section contains text in a paragraph as well as 4 images that are floating in a horizontal fastion with rounded corners and margins
+
+### Hobbies and Future goals section
+The hobbies section contains text an a paragraph as well as a bullet point list
+
+### Contact section
+The contact section contains a form with labels, input fields and a submit button wrapped in a form
