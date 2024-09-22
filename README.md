@@ -13,8 +13,11 @@ The details of the task
 - Ensure responsive design using media queries for desktop and mobile views.
 - Add a footer with contact information, a copyright notice, and placeholders for privacy policy and terms of service.
 
+## Method
+Implementation of the assignment was done by hand trying to keep the structure simple and clean using only pure HTML5, CSS and Javascript. The addition of libraries such as Bootstrap or Material UI would have simplified the task significantly when it comes to design, but the excercise as such gives more in terms of learning when done without such libraries.
+
 ## Reflections
-The challenge in itself seemed pretty straightforward. I elaborated it slightly to include javascript so as to switch visibility for the various sections. 
+The challenge in itself seemed pretty straightforward. I elaborated it slightly to include javascript so as to switch visibility for the various sections. Adding this visual switch improved on the base task feature visually slightly to give it a bit of effect.
 
 ### Biography section
 The biography section consists of a division of the layout using a table, where two columns divide the text and images horizontally. The text is divided into two paragraphs 
@@ -28,3 +31,4 @@ The hobbies section contains text an a paragraph as well as a bullet point list
 
 ### Contact section
 The contact section contains a form with labels, input fields and a submit button wrapped in a form
+
